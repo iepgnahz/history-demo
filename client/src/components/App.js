@@ -12,7 +12,7 @@ export default class App extends Component {
 
   render() {
     window.onpopstate = function(event) {
-      alert('aaa')
+      
     };
     console.log('*********',window.history)
 
